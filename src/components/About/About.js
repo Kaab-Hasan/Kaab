@@ -51,4 +51,6 @@ function About() {
   );
 }
 
+// This component renders the About section of the website, including personal information, skills, and tools used.
+
 export default About;

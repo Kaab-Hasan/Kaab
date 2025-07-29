@@ -19,4 +19,6 @@ function Type() {
   );
 }
 
+// This component uses the typewriter-effect library to display a typewriter animation with various strings.
+
 export default Type;

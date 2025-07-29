@@ -52,4 +52,6 @@ function Particle() {
   );
 }
 
+// This component renders particles in the background using the react-tsparticles library.
+
 export default Particle;

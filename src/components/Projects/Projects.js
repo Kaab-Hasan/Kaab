@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import construction from "../../Assets/Projects/construction.png";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
 import eventbooking from "../../Assets/Projects/eventbooking.png";
+import notesapp from "../../Assets/Projects/notesapp.png";
+import aichatbot from "../../Assets/Projects/aichatbot.png";
 
 function Projects() {
   return (
@@ -50,6 +52,30 @@ function Projects() {
               demoLink="https://constructingsite.netlify.app/"              
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aichatbot}
+              isBlog={false}
+              title="Next.js AI Chatbot"
+              description="An AI-powered chatbot built with Next.js 14, App Router, and OpenAI SDK. Features real-time interaction and a modern UI, offering a seamless conversational experience with customizable prompts."
+              ghLink="https://github.com/Kaab-Hasan/nextjs-ai-chatbot"
+              demoLink="https://nextjs-ai-chatbot-mocha-two-r7eol7k64n.vercel.app/"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={notesapp}
+              isBlog={false}
+              title="Notes App"
+              description="A modern and responsive Notes App built with React.js. It features note creation, editing, deletion, and persistent local storage, offering a clean UI for organizing tasks or ideas."
+              ghLink="https://github.com/Kaab-Hasan/Notes"
+              demoLink="https://www.linkedin.com/posts/kaab-hasan-34012b320_fullstackdevelopment-reactjs-nodejs-activity-7348079219555393537-do7B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFEtOiAB_h-2_SSX6ySSN0zD3IPGUrD1vlM" 
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>

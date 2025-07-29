@@ -4,7 +4,7 @@ html {
     rgba(17, 16, 16, 0.582),
     rgba(12, 8, 24, 0.904)
   );
-
+  
   --image-gradient: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.678),
@@ -449,6 +449,19 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+}
+
+/* --------- */
+/* Contact */
+/* --------- */
+.contact-section {
+  position: relative !important;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+  background-image: var(--section-background-color) !important;
+  min-height: calc(100vh - 200px) !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .project-card {

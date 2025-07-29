@@ -68,4 +68,6 @@ function Techstack() {
   );
 }
 
+// This component renders a row of technology icons representing the tech stack used by the developer.
+
 export default Techstack;

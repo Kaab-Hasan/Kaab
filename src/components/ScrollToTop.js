@@ -9,4 +9,6 @@ function ScrollToTop() {
   return null;
 }
 
+// This component scrolls the window to the top whenever the pathname changes.
+
 export default ScrollToTop;

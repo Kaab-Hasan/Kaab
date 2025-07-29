@@ -10,4 +10,6 @@ const reportWebVitals = onPerfEntry => {
   }
 };
 
+// This file is used to measure performance in a React application.
+
 export default reportWebVitals;

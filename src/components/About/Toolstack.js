@@ -31,4 +31,6 @@ function Toolstack() {
   );
 }
 
+// This component renders a row of technology icons representing the tools used by the developer.
+
 export default Toolstack;

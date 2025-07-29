@@ -19,4 +19,6 @@ function Github() {
   );
 }
 
+// This component displays a GitHub contribution calendar for the user, showing the days they have coded.
+
 export default Github;
